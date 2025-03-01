@@ -1,7 +1,6 @@
 module Grape
   module ErrorFormatter
     module ActiveModelSerializers
-      extend Base
 
       class << self
         def call(message, backtrace, options = {}, env = nil, original_exception = nil)
